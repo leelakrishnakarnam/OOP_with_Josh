@@ -24,10 +24,6 @@ class Guest:
         avg_age = total_age / len(all_guests)
         print(f"Average customer age: {avg_age}")
 
-
-
-
-
 all_guests = list()
 num_guests = int(input("Enter a number of guests: "))
 for i in range(num_guests):
